@@ -1,0 +1,112 @@
+{
+    "questions": [
+        {
+            "questionNumber": 1,
+            "level": 1,
+            "description":"Noun.  A noun is a word used to identify the name of a person, place, animal or thing. As an example, in Adele is an award-winning artist. Here, the noun is Adele, which is the name of a person.",
+            "question": "If that the case, What is the noun in, I live in Amsterdam.",
+            "clue": "Remember, noun is a identifier.",
+            "expectedAnswers": ["amsterdam"],
+            "fallbackLevel": 0,
+            "fallbacks": [
+                {
+                    "questionNumber": 1,
+                    "level": 1,
+                    "question": "What is the noun in, I visited the Eiffel Tower in Paris.",
+                    "clue": "there is more than one noune here. One is paris",
+                    "expectedAnswers": ["eiffel tower and paris", "eiffel tower", "eiffel", "paris"],
+                    "fallbackLevel": 1
+                },
+                {
+                    "questionNumber": 1,
+                    "level": 1,
+                    "question": "What is the noun in, Summer is very hot.",
+                    "clue": "It's the warmest season.",
+                    "expectedAnswers": ["summer"],
+                    "fallbackLevel": 2
+                }
+            ]
+        },
+        {
+            "questionNumber": 2,
+            "level": 2,
+            "description":"Pronoun. A pronoun is a word used in the place of a noun in any sentence. These are used to avoid the repetitive usage of a noun in a sentence. As an example, in the sentence, Roger runs very fast. And Roger has won several competitions. We can say he has won several competitions rather than using roger again",
+            "question": "Now, can you identify the pronoun in, Would you like to have coffee?.",
+            "clue": "Remember, noun can be subtituted by pronoun.",
+            "expectedAnswers": ["you"],
+            "fallbackLevel": 0,
+            "fallbacks": [
+                {
+                    "questionNumber": 2,
+                    "level": 2,
+                    "question": "What is the pronoun in, Everyone is sleeping in the dorm room?.",
+                    "clue": "look for something similar to a noun.",
+                    "expectedAnswers": ["Everyone"],
+                    "fallbackLevel": 1
+                },
+                {
+                    "questionNumber": 2,
+                    "level": 2,
+                    "question": "What is the pronoun in, This house is mine?.",
+                    "clue": "something similar to me.",
+                    "expectedAnswers": ["mine"],
+                    "fallbackLevel": 2
+                }
+            ]
+        },
+        {
+            "questionNumber": 3,
+            "level": 3,
+            "description":"Verb.  The verb describes an action, occurrence or happening of an act. Let's take the sentense, Adam is singing. Here, singing is the verb, which denotes an act of doing something.",
+            "question": "By that, Can you identify the verb in the following sentence?. The monkey jumpped to the window.",
+            "clue": "what did monkey do?",
+            "expectedAnswers": ["jumpped", "jumped"],
+            "fallbackLevel": 0,
+            "fallbacks": [
+                {
+                    "questionNumber": 3,
+                    "level": 3,
+                    "question": "What is the verb in, Jack left in a hurry.",
+                    "clue": "what did jack do?",
+                    "expectedAnswers": ["left"],
+                    "fallbackLevel": 1
+                },
+                {
+                    "questionNumber": 3,
+                    "level": 3,
+                    "question": "What is the verb in, Michelle hurt her elbow while playing.",
+                    "clue": "There are two verbs here, one is playing.",
+                    "expectedAnswers": ["Hurt", "playing"],
+                    "fallbackLevel": 2
+                }
+            ]
+        },
+        {
+            "questionNumber": 4,
+            "level": 4,
+            "description":"Adverbs.  An adverb is a word that revises a verb, adjective, clause, phrase, preposition, or a sentence. in, She is usually late to the class, usually is the adverb which is modifying the verb in the sentence.",
+            "question": " Now, can you identify the Adverb in the following sentence?. Marcus always arrives early.",
+            "clue": "Here the verb is arrives. adverb is the thing that modifies verb",
+            "expectedAnswers": ["Always"],
+            "fallbackLevel": 0,
+            "fallbacks": [
+                {
+                    "questionNumber": 4,
+                    "level": 4,
+                    "question": "What is the adverb in, Their pets go everywhere together.",
+                    "clue": "where does the pet go?",
+                    "expectedAnswers": ["Everywhere"],
+                    "fallbackLevel": 1
+                },
+                {
+                    "questionNumber": 4,
+                    "level": 4,
+                    "question": "What is the adverb in, The soccer team almost quit.",
+                    "clue": "The word that describes the verb quit.",
+                    "expectedAnswers": ["Almost"],
+                    "fallbackLevel": 2
+                }
+            ]
+        }
+    ]
+}

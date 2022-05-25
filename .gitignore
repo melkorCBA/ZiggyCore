@@ -1,0 +1,10 @@
+mainController/Scripts/
+motorController/Scripts/
+STT-controller/Scripts/
+TTS/tft/Scripts/
+mainController/Lib/
+motorController/Lib
+STT-controller/Lib/
+TTS/tft/Lib/
+CLTFaceRecognitionBase/build
+CLTFaceRecognitionBase/__pycache__/
